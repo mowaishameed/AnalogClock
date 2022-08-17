@@ -1,0 +1,136 @@
+
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'DynaPuff', cursive;
+}
+/* .container1{
+    background-color: blue;
+    height: 430px;
+    width: 430px;
+    margin: 30px auto;
+    border-radius: 217px;
+    /* padding: 12px; */
+/* }  */
+
+.container{
+    background-image: linear-gradient(
+          to bottom,
+          #00c0ff,
+          #ffcf00,
+          #fc4f4f,
+          #0e22c3
+        );
+    box-shadow: 0px 30px 40px 0px rgba(72, 30, 202, 0.2);
+    height: 400px;
+    width: 400px;
+    margin: 30px auto;
+    border-radius: 217px;
+    padding: 16px;
+}
+
+.container2{
+    z-index: -1;
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient(to bottom, #491bc9, #027fff);
+    border-radius: 200px;
+    box-shadow: inset 0px 20px 40px rgba(0, 0, 0, 0.1),
+    inset 0px 0px 40px rgba(37, 13, 105, 0.55), 0px 5px 0px #5430ff,
+    0px -1px 0px 3px rgba(14, 29, 169, 0.35);
+}
+.clock-round{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    color: white;
+
+}
+
+.number{
+    /* position: absolute; */
+    
+}
+
+#n1{transform: rotate(30deg);}
+#n2{transform: rotate(60deg);}
+#n3{transform: rotate(90deg);}
+#n4{transform: rotate(120deg);}
+#n5{transform: rotate(150deg);}
+#n6{transform: rotate(180deg);}
+#n7{transform: rotate(210deg);}
+#n8{transform: rotate(240deg);}
+#n9{transform: rotate(270deg);}
+#n10{transform: rotate(300deg);}
+#n11{transform: rotate(330deg);}
+/* #n12{transform: rotate(30deg);} */
+
+#nn1{transform: rotate(-30deg);}
+#nn2{transform: rotate(-60deg);}
+#nn3{transform: rotate(-90deg);}
+#nn4{transform: rotate(-120deg);}
+#nn5{transform: rotate(-150deg);}
+#nn6{transform: rotate(-180deg);}
+#nn7{transform: rotate(-210deg);}
+#nn8{transform: rotate(-240deg);}
+#nn9{transform: rotate(-270deg);}
+#nn10{transform: rotate(-300deg);}
+#nn11{transform: rotate(-330deg);}
+
+#sec-needle{
+    position: relative;
+    top: 20px;
+    width: 4px;
+    height: 180px;
+    background-image: linear-gradient(to top, #e45753 0%, #ca09e8 100%);
+    margin: auto;
+    transform-origin: bottom;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+
+
+#min-needle{
+    position: relative;
+    top: -144px;
+    right: -195px;
+    background-color: rgb(219, 219, 219);
+    height: 164px;
+    width: 7px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    transform: rotate(0deg);
+    transform-origin: bottom;
+}
+
+#hr-needle{
+    position: relative;
+    top: -256px;
+    right: -195px;
+    background-color: white;
+    height: 112px;
+    width: 7px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    transform: rotate(0deg);
+    transform-origin: bottom;
+}
+
+#circle{
+    height: 30px;
+    width: 30px;
+    background-color: #3349c9;
+    border-radius: 29px;
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.2),
+          inset 0px 0px 20px 1px rgba(54, 21, 148, 0.3);
+    /* border: 2px solid black; */
+    position: relative;
+    top: -274px;
+    left: 185px;
+}
